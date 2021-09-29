@@ -38,7 +38,7 @@ header{
 .principal{
 	background: red;
 	height: 90vh;
-	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
+	background: url(../images/backgroundLavanda.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -133,6 +133,7 @@ and (max-device-width : 736px) { }
 @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
   /* iPhone only */
   /* Styles */
+
   .off {
     display: none !important;
   }
@@ -164,5 +165,4 @@ h1{
 footer{
 	padding-top: 10px;
 }
-
 }
