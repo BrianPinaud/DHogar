@@ -1,29 +1,33 @@
 body{
 	background: white;
 	font-family: 'Open Sans', sans-serif;
-
+@font-face(
+	font-family: "DHfuente";
+	src: url('fonts/DH/LeJourSerif-OVZMo.otf');
+	)
 }
 
 
 
 .logo{
-	width: 40px;
+	width: 50px;
 }
 
 .botonera li{
 	display: inline-block;
 	margin-left: 8px;
-	font-weight: 700;
-	font-size: 20px;
+	font-weight: 600;
+	font-size: 15px;
+
 }
 .botonera li a{
-	color: black
-;
+	color: black;
 
 }
 .botonera li a:hover{
 	color: white;
 	text-decoration: none;
+
 	
 
 }
@@ -31,7 +35,7 @@ body{
 
 header{
 	background: white; 
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	position: fixed;
 	width: 100%;
@@ -65,6 +69,7 @@ h1{
 	font-weight: 700;
 	font-size: 50px;
 	color: darkviolet;
+font-family: 'LeJourSerif', sans-serif;
 }
 
 .orange{
@@ -119,6 +124,7 @@ footer{
 footer h1{
 	text-align: center;
 	font-weight: 100;
+
 }
 
 #home {
