@@ -6,9 +6,12 @@ body{
 	src: url('fonts/DH/LeJourSerif-OVZMo.otf');
 	)
 }
-
-
-
+/***********************************************************/
+/*Aca referencio al DH y le indico el ancho que va a tener*/
+.logo1{
+	width: 150px;
+}
+/***********************************************************/
 .logo{
 	width: 50px;
 }
@@ -62,9 +65,19 @@ header{
   justify-content: center;
 }
 
+/***********************************************************/
+/*Aca se referencia al div que contiene el desde el DH hasta el botón VER PRODUCTOS**/
 .cta{
+	/*Esto es lo unico que tenias antes, es para que los textos vayan al centro*/
 	text-align: center;
+	/*esto es para poder alinear los elmentos de ese div con flexbox*/
+	display: flex;
+	/*aca le indicas que va a ir uno abajo del otro*/
+	flex-direction: column;
+	/*aca le indicas que los elementos van al centro del div*/
+	align-items: center;
 }
+/***********************************************************/
 h1{
 	font-weight: 700;
 	font-size: 50px;
