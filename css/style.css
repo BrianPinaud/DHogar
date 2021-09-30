@@ -1,24 +1,42 @@
 body{
 	background: white;
 	font-family: 'Open Sans', sans-serif;
-@font-face(
-	font-family: "DHfuente";
-	src: url('fonts/DH/LeJourSerif-OVZMo.otf');
-	)
 }
 /***********************************************************/
 /*Aca referencio al DH y le indico el ancho que va a tener*/
 .logo1{
-	width: 150px;
+	width: 300px;
 }
 /***********************************************************/
 .logo{
 	width: 50px;
 }
 
+.prueba {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 50px;
+
+}
+
+@font-face {
+    font-family: 'Le Jour';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Le Jour'), url('https://fonts.cdnfonts.com/s/27182/LeJourSerif-OVZMo.woff') format('woff');
+}
+
+.dhTitulo{
+	
+	font-family: 'Le Jour';
+	
+}
+
+
+
 .botonera li{
 	display: inline-block;
-	margin-left: 8px;
+	margin-left: 30px;
 	font-weight: 600;
 	font-size: 15px;
 
@@ -29,26 +47,40 @@ body{
 
 }
 .botonera li a:hover{
-	color: white;
+	color: darkviolet;
 	text-decoration: none;
+	font-size: 17px;
 
 	
 
 }
+.categorias {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-right: 50px;
+
+}
+
+
+
+
 
 header{
 	background: white; 
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	position: fixed;
 	width: 100%;
 	z-index: 34242;
+	height: 50px;
+
 }
 
 .principal{
-	background: red;
 	height: 90vh;
-	background: url(../images/backgroundLavanda.jpg)no-repeat center center fixed; 
+	background: url(../images/backgroundLavanda.jpg) center center fixed;
+	background-repeat: repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -89,7 +121,7 @@ font-family: 'DHfuente';
 
 	background: #25FFCF;
 }
-.btn-primary {
+.boton1 {
 	color: black;
 	font-weight:  800;
 
@@ -107,6 +139,9 @@ font-family: 'DHfuente';
 	text-align: center;
 	padding-top: 150px;
 	padding-bottom: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: auto;
 }
 .servicios img{
 	width: 40%;
@@ -114,8 +149,18 @@ font-family: 'DHfuente';
 }
 
 .servicios h1{
-	color: #666;
-	font-weight: 100;
+	color: black;
+	font-weight: 10;
+	font-family: 'Le Jour';
+	
+}
+
+.category{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	padding: 0;
 }
 .servicios .images{
 	padding-top: 30px;
