@@ -54,6 +54,11 @@ body{
 	
 
 }
+
+.btncard {
+	background: darkviolet;
+
+}
 .categorias {
 	display: flex;
 	flex-direction: row;
@@ -63,7 +68,10 @@ body{
 }
 
 
-
+.titulop {
+	font-size: 20px;
+	font-weight: bold;
+}
 
 
 header{
@@ -122,6 +130,14 @@ font-family: 'DHfuente';
 	background: #25FFCF;
 }
 .boton1 {
+	font-size: 25px;
+	color: black;
+	font-weight:  800;
+
+}
+.boton2 {
+	font-size: 25px;
+	background: darkviolet;
 	color: black;
 	font-weight:  800;
 
