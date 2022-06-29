@@ -5,10 +5,12 @@ body{
 /***********************************************************/
 /*Aca referencio al DH y le indico el ancho que va a tener*/
 .logo1{
+	
 	width: 300px;
 }
 /***********************************************************/
 .logo{
+	
 	width: 55px;
 }
 
@@ -169,7 +171,7 @@ h1{
 	margin: auto;
 }
 .row{
-	padding-top: 65px;
+	padding-top: 2px;
 	display: flex;
 	justify-content: center;
 }
@@ -192,10 +194,21 @@ h1{
 
 }
 
-.card{
+.imgen{
+	
+}
 
+.card{
+background-color: lightgrey;
 	border-radius: 25px;
 }
+
+.descripcion{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
 .card-title{
 	font-size: 19px;
 	font-family: 'Open Sans', sans-serif;
@@ -213,12 +226,15 @@ h1{
  max-height: 100%;
 
 }
+
+
 .category {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 0;
+	
 }
 
 .servicios .images{
@@ -244,9 +260,11 @@ h1{
 }
 
 footer{
-	background: rgb(192, 192, 192);
-	height: 50vh;
-	padding-top: 30px;
+	background: #D4B5FE;
+	height: 35vh;
+	width: 200%;
+	padding-top: 40px;
+	padding-bottom: 0%;
 }
 footer h1{
 	text-align: center;

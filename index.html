@@ -47,8 +47,8 @@
 				<!--Lo puse acá y le puse una class llamada logo1 para referenciarla en el css-->
 				<img class='logo1' src="images/logoDH.png" alt="">
 				<h1 class='dhTitulo' >Dulce Hogar</h1> 
-				<h4>Es TODO lo que necesitas!</h4>
-				<p>Les traemos productos divertidos, funcionales , y super originales!</p>
+				<h4 class="card-title">Es TODO lo que necesitas!</h4>
+				<p class="descripcion">Les traemos productos divertidos, funcionales , y super originales!</p>
 				<a  href="#servicios" class="btn btn-primary orange boton1">VER PRODUCTOS</a>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
 		<div class="nosotros orange" id="nosotros">
 			<div class="container">
 				<h1>Sobre nosotros</h1>
-				<p>
+				<p class="descripcion">
 					Dulce Hogar es un emprendimiento destinado a la venta de productos de diferentes categorias. Trabajamos con una amplia variedad de proveedores.
 					Si tenes alguna consulta sobre nuestros productos o sos proveedor...
 				</p>
@@ -200,7 +200,9 @@
 	
 						<!--------------------------producto1------------------------>
 						<div class="card" style="width: 18rem;">
+							<div class="imagen">
 							<img src="C:\Users\brian\Desktop\proyecto DH\DH\images\auriculares.png" class="card-img-top" alt="...">
+						    </div>
 							<div class="card-body">
 								<h5 class="card-title">Auriculares inalambricos bluetooth</h5>
 								<p class="card-text">$4500</p>
@@ -243,27 +245,32 @@
 
 	
 
-		<footer>
-			<div class="container" id="contacto">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>CONTACTO</h1><br><br>
+		<footer class="footer">
+			  <div class="container" id="contacto">
+				   <div class="row">
+					    <div class="col-md-12">
+						   <h1>CONTACTO</h1><br><br>
 
-					</div>
-				</div>
-				<div class="row social">
-					<div class="col-3"></div>	
-					<div class="col-2">
-						<a href="mailto:dulcehogar.oeste@gmail.com"><img src="images/001-mail.svg" alt=""></a></div>
+					    </div>
+				    </div>
+			        	    <div class="row social">
+				               	
+					                <div class="col-2">
+						               <a href="mailto:dulcehogar.oeste@gmail.com"><img src="images/001-mail.svg" alt=""></a></div>
 
-						<div class="col-2">
-							<a href=" https://wa.me/1139008159"  target="_blank"><img src="images/iconowhatsapp.png" alt=""></a></div>
+						                <div class="col-2">
+							               <a href=" https://wa.me/1139008159"  target="_blank"><img src="images/iconowhatsapp.png" alt=""></a></div>
 
 
-							<div class="col-2">
-								<a target="_blank" href="https://www.instagram.com/dulcehogar.oeste/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+							                <div class="col-2">
+								                   <a target="_blank" href="https://www.instagram.com/dulcehogar.oeste/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+							                </div>
+				                        </div>
+									</div>
+								
 							</div>
-						</footer>
+				 </div>
+		 </footer>
 						<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
 						<script
 						src="https://code.jquery.com/jquery-2.2.4.min.js"
