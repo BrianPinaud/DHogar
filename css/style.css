@@ -222,10 +222,12 @@ background-color: lightgrey;
 
 .card-img-top{
 	
-	width: 100%; 
+ width: 100% !important; 
  max-height: 100%;
 
 }
+
+
 
 
 .category {
@@ -246,6 +248,7 @@ background-color: lightgrey;
 	border-radius: 20px;
 	font-size: 30px;
 	font-weight: bold;
+	width: 80%;
 }
 .images .col-md-3{
 	padding-top: 20px;
@@ -262,7 +265,7 @@ background-color: lightgrey;
 footer{
 	background: #D4B5FE;
 	height: 35vh;
-	width: 200%;
+	width: 100%;
 	padding-top: 40px;
 	padding-bottom: 0%;
 }
@@ -279,6 +282,9 @@ footer h1{
 	text-align: center;
 }
 
+.card{
+	margin: 0.5rem;
+}
 
 /*@media only screen 
 and (min-device-width : 414px) 
